@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat-Italic";
     src: url(/assets/fonts/Montserrat-Italic-VariableFont_wght.ttf);
     font-style: italic;
-    font-weight: normal;
+    font-weight: 100;
 }
 
 @font-face {
@@ -250,6 +250,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* images */
+.img-cont {
+    height: 100%;
+    margin: 100px auto;
+}
 .img {
     width: 1280px;
     height: auto;
