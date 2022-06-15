@@ -12,6 +12,26 @@ h1, h2, h3, h4, h5, h6 {
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Montserrat-Thin";
+    src: url(/assets/fonts/Montserrat-Thin.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Montserrat-Italic";
+    src: url(/assets/fonts/Montserrat-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MontserratAlternates-SemiBold";
+    src: url(/assets/fonts/MontserratAlternates-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
 /* Conatiner */
 
 .container {
@@ -43,14 +63,21 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     line-height: normal;
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat-Italic", sans-serif;
     text-align: center;
     margin-bottom: 10px;
 }
 
 /* Contact */
+.ct-container {
+    border-top: 45px;
+    width: 60%;
+    border-top: 45px;
+    margin: auto;
+    margin-top: 5%;
+    height: 100vh;
+}
 .ct-title {
-
     color: #fff;
     width: 1024px;
     font-size: 48px;
@@ -58,6 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 .ct-sub {
     color: #fff;
     display: flex;
+    font-size: 24px;
 }
 
 /* Tel */
@@ -119,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     line-height: normal;
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat-Italic", sans-serif;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -179,7 +207,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Section */
 
 .section {
-    padding: 80px 0;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
 .section-header {
     max-width: 950px;
@@ -188,10 +217,10 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 .section-title {
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: "MontserratAlternates-SemiBold", sans-serif;
 }
 .section-text {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat-Italic", sans-serif;
     color: #fff;
     font-size: 24px;
 }
@@ -206,6 +235,7 @@ h1, h2, h3, h4, h5, h6 {
     color: rgb(255, 255, 255);
 }
 .brand-subtitle {
+    border-top: 45px;
     line-height: 30px;
     font-size: 24px;
     font-weight: 300;
@@ -213,7 +243,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 .brand-content {
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: "MontserratAlternates-SemiBold", sans-serif;
     color: #fff;
     font-size: 14px;
     line-height: 24px;
@@ -227,6 +257,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* form */
+.frcont {
+    width: 75%;
+    height: 500px;
+    max-width: 1024px;
+    margin: auto;
+}
+.ctform {
+    
+    padding-bottom: 20px;
+}
 
 h2.cont {
     max-width: 1024px;
@@ -248,8 +288,7 @@ input[type="text"] {
     width: 400px;
 }    
 textarea {
-    width: 600px;
-    height: 275px;
+    width: 600px;;
 }
 input, textarea {
     background-color: rgba(255, 255, 255, 0.4);
@@ -299,4 +338,24 @@ input[type="submit"]:hover {
 }
 input[type="submit"]:active {
     top: 1px;
+}
+
+/* footer */
+.footer__container {
+    background: #000;
+    height: 60px;
+}
+.footer__content {
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer__police {
+    width: 270px;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 50px;
+    color: #fff;
+    font-family: "Montserrat-Thin";
+    font-size: 14px;
 }
