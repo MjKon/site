@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     width: 100%;
     height: 615px;
-    background: url(../assets/images/004.jpg) center no-repeat;
+    background: url(assets/images/004.jpg) center no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
 }
