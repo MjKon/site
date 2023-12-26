@@ -14,20 +14,20 @@ h1, h2, h3, h4, h5, h6 {
 
 @font-face {
     font-family: "Montserrat-Thin";
-    src: url(./assets/fonts/Montserrat-Thin.ttf);
+    src: url(../assets/fonts/Montserrat-Thin.ttf);
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: "Montserrat-Italic";
-    src: url(./assets/fonts/Montserrat-Italic-VariableFont_wght.ttf);
+    src: url(../assets/fonts/Montserrat-Italic-VariableFont_wght.ttf);
     font-style: italic;
     font-weight: 100;
 }
 
 @font-face {
     font-family: "MontserratAlternates-SemiBold";
-    src: url(./assets/fonts/MontserratAlternates-SemiBold.ttf);
+    src: url(../assets/fonts/MontserratAlternates-SemiBold.ttf);
     font-weight: 600;
     font-style: normal;
 }
